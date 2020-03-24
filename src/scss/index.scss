@@ -1,0 +1,58 @@
+@import '~grommet/scss/vanilla/index';
+
+.header {
+    background-color: #157c4f    
+}
+
+.grommetux-button--primary {
+    background-color: #157c4f;
+    color: #fff;
+    border: 2px solid #157c4f;
+}
+
+.grommetux-button--primary:not(.grommetux-button--focus) {
+    border-color: #157c4f;
+}
+
+.grommetux-button:not(.grommetux-button--disabled):not(.grommetux-button--plain):not(.grommetux-button--fill).grommetux-button--primary:hover {
+    box-shadow: 0px 0px 0px 2px #157c4f;
+}
+
+anchor {
+    color: black;
+}
+
+.title {
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.grommet b, .grommet strong {
+    font-weight: 700;
+}
+
+.grommetux-anchor {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.grommetux-menu--primary>a:not(.grommetux-button).grommetux-anchor--active, .grommetux-menu--primary>a:not(.grommetux-button).active {
+    border-color: white;
+}
+
+.grommetux-anchor:visited {
+    color: white;
+}
+
+.grommetux-menu--primary>a:not(.grommetux-button) {
+    padding: 12px 24px 12px 20px;
+    margin-bottom: 0px;
+    width: 100%;
+    border-width: 4px;
+    border-color: transparent;
+    border-left-style: none;
+}
